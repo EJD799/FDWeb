@@ -1,0 +1,31 @@
+<link href="/fluent11.css" rel="stylesheet">
+<script src="/fluent11.js"></script>
+<br><br>
+<button class="fluent-button" onclick="alert('fluent-button clicked')">fluent-button</button>
+<button class="fluent-button-primary" onclick="alert('fluent-button-primary clicked')">fluent-button-primary</button>
+<br><br>
+<button class="fluent-icon-button">&#xE80F;</button>
+<br><br>
+<input class="fluent-box" placeholder="fluent-box">
+<br><br>
+<select class="fluent-select"><option>fluent-select</option><option>Another Option</option></select><br><br>
+<textarea class="fluent-box-large" placeholder="fluent-box-large"></textarea>
+<br><br>
+<a class="fluent-link" href="javascript:alert('fluent-link clicked')">fluent-link</a>
+<br><br>
+<label class="fluent-switch"><input type="checkbox" checked><span class="fluent-slider fluent-round"></span></label>
+<br><br><br>
+<button class="fluent-button" onclick="openDialog('demo-dlg')">Open Dialog</button>
+<div class="fluent-dialog-container hidden" id="demo-dlg">
+<div class="fluent-dialog"><h1>     Dialog</h1><p>     This is some test text</p><br><br><div class="fluent-dialog-button-container"><button class="fluent-dialog-button" onclick="closeDialog('demo-dlg')">Close</button></div></div></div>
+  <br><br>
+<div class="fluent-sidebar-large"><button class="fluent-sidebar-large-item-selected">&#xE80F; fluent-sidebar-large-item-selected</button><button class="fluent-sidebar-large-item">&#xE80F;fluent-sidebar-large-item</button></div>
+</div>
+<br><br>
+<br><br><br><br><br>
+<div class="fluent-slide-container">
+<input type="range" min="1" max="100" value="50" class="fluent-slide" />
+</div>
+<script>
+document.write("<style>:root{--accent:" + window.location.hash + ";}</style>")
+</script>
